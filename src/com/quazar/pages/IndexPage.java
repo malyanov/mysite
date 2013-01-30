@@ -1,8 +1,7 @@
 package com.quazar.pages;
 
-import org.apache.click.Page;
 
-public class IndexPage extends Page{
+public class IndexPage extends BasePage{
 	public IndexPage(){
 		addModel("name", "Мальянов Дмитрий");
 	}
