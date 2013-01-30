@@ -1,6 +1,13 @@
 <ul class="navigation">
-	<li><a href="index.htm">Главная</a></li>
-	<li><a href="portfolio.htm">Портфолио</a></li>
-	<li><a href="demos.htm">Технологии</a></li>
-	<li><a href="about.htm">Резюме</a></li>
+	<li>#if($page_id!="index") <a href="index.htm">Главная</a> #else <span>Главная</span>#end
+	</li>
+	<li>#if($page_id!="portfolio")<a href="portfolio.htm">Портфолио</a>#else<span>Портфолио</span>#end
+	</li>
+	<li>#if($page_id!="demos")<a href="demos.htm">Технологии</a>#else<span>Технологии</span>#end
+	</li>
+	<li>#if($page_id!="services")<a href="services.htm">Услуги</a>#else<span>Услуги</span>#end
+	</li>
+	<li>#if($page_id!="about")<a href="about.htm">Резюме</a>#else<span>Резюме</span>#end
+	</li>
 </ul>
+<div class="clear"></div>

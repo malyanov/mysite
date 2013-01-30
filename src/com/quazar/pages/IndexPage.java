@@ -3,7 +3,7 @@ package com.quazar.pages;
 
 public class IndexPage extends BasePage{
 	public IndexPage(){
-		addModel("name", "Мальянов Дмитрий");
+		super("index");
 	}
 	@Override
 	public String getTemplate() {

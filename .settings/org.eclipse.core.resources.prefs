@@ -9,4 +9,6 @@ encoding//war/panels/footer.htm=UTF-8
 encoding//war/panels/nav.htm=UTF-8
 encoding//war/panels/resources.htm=UTF-8
 encoding//war/portfolio.htm=UTF-8
+encoding//war/services.htm=UTF-8
 encoding/<project>=UTF-8
+separateDerivedEncodings=true
