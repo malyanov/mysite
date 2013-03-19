@@ -1,7 +1,8 @@
 package com.quazar.pages;
 
 
-public class IndexPage extends BasePage {
+
+public class IndexPage extends BasePage {	
 	public IndexPage() {
 		super("index");		
 	}
